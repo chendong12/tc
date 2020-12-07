@@ -41,6 +41,9 @@ vpnSpeed[32]=3000;vpnUser[32]=ganjin
 vpnSpeed[34]=3000;vpnUser[34]=shandong_xhl
 vpnSpeed[36]=29000;vpnUser[36]=hz01
 vpnSpeed[38]=29000;vpnUser[38]=hz02
+vpnSpeed[38]=29000;vpnUser[40]=hz-jianbo
+vpnSpeed[38]=3000;vpnUser[42]=hz-shibd01
+vpnSpeed[38]=5000;vpnUser[44]=hz-shibd02
 
 #计算出数组中最后一个index
 let vpn_total_number=${#vpnSpeed[@]}*2+4
