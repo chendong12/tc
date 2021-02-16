@@ -46,7 +46,7 @@ vpnSpeed[42]=3000;vpnUser[42]=hz-shibd01
 vpnSpeed[44]=5000;vpnUser[44]=hz-shibd02
 vpnSpeed[46]=5000;vpnUser[46]=sd_leda
 vpnSpeed[48]=5000;vpnUser[48]=hdjt
-vpnSpeed[50]=5000;vpnUser[50]=hzdx
+vpnSpeed[50]=29000;vpnUser[50]=hzdx
 
 
 
