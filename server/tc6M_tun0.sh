@@ -41,10 +41,10 @@ vpnSpeed[32]=3000;vpnUser[32]=ganjin
 vpnSpeed[34]=3000;vpnUser[34]=shandong_xhl
 vpnSpeed[36]=29000;vpnUser[36]=hz01
 vpnSpeed[38]=29000;vpnUser[38]=hz02
-vpnSpeed[40]=29000;vpnUser[40]=hz-jianbo
+vpnSpeed[40]=2100;vpnUser[40]=hz-jianbo
 vpnSpeed[42]=3000;vpnUser[42]=hz-shibd01
 vpnSpeed[44]=5000;vpnUser[44]=hz-shibd02
-vpnSpeed[46]=5000;vpnUser[46]=sd_leda
+vpnSpeed[46]=2100;vpnUser[46]=hz-jianbo2
 vpnSpeed[48]=5000;vpnUser[48]=hdjt
 vpnSpeed[50]=29000;vpnUser[50]=hzdx
 
