@@ -44,7 +44,7 @@ vpnSpeed[38]=29000;vpnUser[38]=hz02-85
 vpnSpeed[40]=2100;vpnUser[40]=hz-jianbo
 vpnSpeed[42]=3000;vpnUser[42]=hz-shibd01
 vpnSpeed[44]=2000;vpnUser[44]=hz-shibd02
-vpnSpeed[46]=1100;vpnUser[46]=hz-jianbo2
+vpnSpeed[46]=2100;vpnUser[46]=hz-jianbo2
 vpnSpeed[48]=5000;vpnUser[48]=hdjt
 vpnSpeed[50]=29000;vpnUser[50]=hzdx
 
