@@ -27,11 +27,11 @@ vpn_address_pre=172.16.2
 vpnSpeed[6]=29000;vpnUser[6]=home
 vpnSpeed[8]=29000;vpnUser[8]=dx
 vpnSpeed[10]=29000;vpnUser[10]=hunan
-vpnSpeed[12]=8000;vpnUser[12]=505
+vpnSpeed[12]=16000;vpnUser[12]=505
 vpnSpeed[14]=8000;vpnUser[14]=506
 vpnSpeed[16]=8000;vpnUser[16]=tky
 vpnSpeed[18]=4000;vpnUser[18]=epc
-vpnSpeed[20]=3000;vpnUser[20]=sdxh
+vpnSpeed[20]=6200;vpnUser[20]=sdxh
 vpnSpeed[22]=3000;vpnUser[22]=tjty
 vpnSpeed[24]=3000;vpnUser[24]=liaoly
 vpnSpeed[26]=29000;vpnUser[26]=hangzhou_xhl
