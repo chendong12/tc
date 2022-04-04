@@ -4,10 +4,6 @@ ip route del 0.0.0.0/1 via 10.10.10.2 dev tunG0
 ip route del 128.0.0.0/1 via 10.10.10.2 dev tunG0
 
 
-ip rule del from all lookup  5 pri  5 
-ip rule add from all lookup  5 pri  5 
-/root/static_route.sh
-
 #2、添加国内路由
 ip rule del from all lookup 10 pri 10
 ip rule add from all lookup 10 pri 10
@@ -21,6 +17,8 @@ ip rule add from all lookup 15 pri 15
 
 OLDGW=$(ip route show 0/0 | sed -e 's/^default//')
 ip route add 13.250.62.24 $OLDGW table 15
+ip route add 13.228.30.146 $OLDGW table 15
+
 #
 #nat
 iptables -t nat -A POSTROUTING -s 10.8.2.0/24 -o tunG0 -j MASQUERADE
