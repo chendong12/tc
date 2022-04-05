@@ -22,6 +22,8 @@ ip route add 13.228.30.146 $OLDGW table 15
 #
 #nat
 iptables -t nat -A POSTROUTING -s 10.8.2.0/24 -o tunG0 -j MASQUERADE
+#此处必须等待5秒，否则启动慢
+sleep 5
 #默认路由指向GRE
 ip route add 0.0.0.0/1 via 10.10.10.2 dev tunG0
 ip route add 128.0.0.0/1 via 10.10.10.2 dev tunG0
