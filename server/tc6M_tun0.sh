@@ -49,7 +49,7 @@ vpnSpeed[48]=5000;vpnUser[48]=hdjt
 vpnSpeed[50]=29000;vpnUser[50]=hzdx
 vpnSpeed[52]=29000;vpnUser[52]=huabei
 vpnSpeed[54]=29000;vpnUser[54]=bj
-vpnSpeed[56]=4100;vpnUser[56]=xhl-hangzhou
+vpnSpeed[56]=4100;vpnUser[56]=xhl-shenzheng
 vpnSpeed[58]=29000;vpnUser[58]=beihang_tiyu
 
 
