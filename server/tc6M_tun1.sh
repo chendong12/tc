@@ -24,26 +24,9 @@ NetDevice=tun1
 vpn_address_pre=172.16.2
 #####################################################################
 #定义用户
-vpnSpeed[6]=29000;vpnUser[6]=home
-vpnSpeed[8]=29000;vpnUser[8]=dx
-vpnSpeed[10]=29000;vpnUser[10]=hunan
-vpnSpeed[12]=16000;vpnUser[12]=505
-vpnSpeed[14]=8000;vpnUser[14]=506
-vpnSpeed[16]=8000;vpnUser[16]=tky
-vpnSpeed[18]=4000;vpnUser[18]=epc
-vpnSpeed[20]=6200;vpnUser[20]=sdxh
-vpnSpeed[22]=3000;vpnUser[22]=tjty
-vpnSpeed[24]=3000;vpnUser[24]=liaoly
-vpnSpeed[26]=29000;vpnUser[26]=hangzhou_xhl
-vpnSpeed[28]=3000;vpnUser[28]=sdtdlt
-vpnSpeed[30]=3000;vpnUser[30]=xzshouyou
-vpnSpeed[32]=3000;vpnUser[32]=ganjin
-vpnSpeed[34]=3000;vpnUser[34]=shandong_xhl
-vpnSpeed[36]=29000;vpnUser[36]=hz01
-vpnSpeed[38]=29000;vpnUser[38]=hz02
-vpnSpeed[40]=29000;vpnUser[40]=hz-jianbo
-vpnSpeed[42]=3000;vpnUser[42]=hz-shibd01
-vpnSpeed[44]=5000;vpnUser[44]=hz-shibd02
+vpnSpeed[6]=16000;vpnUser[6]=505
+vpnSpeed[8]=6200;vpnUser[8]=sdxh
+
 
 #计算出数组中最后一个index
 let vpn_total_number=${#vpnSpeed[@]}*2+4
