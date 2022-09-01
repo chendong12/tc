@@ -25,32 +25,34 @@ vpn_address_pre=10.8.0
 #####################################################################
 #定义用户
 vpnSpeed[6]=29000;vpnUser[6]=home
-vpnSpeed[8]=29000;vpnUser[8]=dx
-vpnSpeed[10]=29000;vpnUser[10]=hunan
+vpnSpeed[8]=20000;vpnUser[8]=dx
+vpnSpeed[10]=20000;vpnUser[10]=hunan
 vpnSpeed[12]=8000;vpnUser[12]=505
-vpnSpeed[14]=12000;vpnUser[14]=506
-vpnSpeed[16]=8000;vpnUser[16]=tky
-vpnSpeed[18]=3000;vpnUser[18]=epc
+vpnSpeed[14]=14000;vpnUser[14]=506
+vpnSpeed[16]=10000;vpnUser[16]=tky
+vpnSpeed[18]=3100;vpnUser[18]=epc
 vpnSpeed[20]=10300;vpnUser[20]=sdxh
 vpnSpeed[22]=3000;vpnUser[22]=tjty
 vpnSpeed[24]=3000;vpnUser[24]=liaoly
-vpnSpeed[26]=4100;vpnUser[26]=hangzhou_xhl
+vpnSpeed[26]=6100;vpnUser[26]=hangzhou_xhl
 vpnSpeed[28]=3000;vpnUser[28]=sd_tiandiluntai
 vpnSpeed[30]=3000;vpnUser[30]=xzshouyou
 vpnSpeed[32]=3000;vpnUser[32]=ganjin
-vpnSpeed[34]=4100;vpnUser[34]=shandong_xhl
+vpnSpeed[34]=6100;vpnUser[34]=shandong_xhl
 vpnSpeed[36]=29000;vpnUser[36]=hz01-86
 vpnSpeed[38]=29000;vpnUser[38]=hz02-85
 vpnSpeed[40]=2100;vpnUser[40]=hz-jianbo
 vpnSpeed[42]=3000;vpnUser[42]=hz-shibd01
 vpnSpeed[44]=2000;vpnUser[44]=hz-shibd02
 vpnSpeed[46]=2100;vpnUser[46]=hz-jianbo2
-vpnSpeed[48]=5000;vpnUser[48]=hdjt
+vpnSpeed[48]=20000;vpnUser[48]=hdjt
 vpnSpeed[50]=29000;vpnUser[50]=hzdx
 vpnSpeed[52]=29000;vpnUser[52]=huabei
 vpnSpeed[54]=29000;vpnUser[54]=bj
 vpnSpeed[56]=4100;vpnUser[56]=xhl-shenzheng
 vpnSpeed[58]=29000;vpnUser[58]=beihang_tiyu
+vpnSpeed[60]=29000;vpnUser[60]=baotou
+
 
 
 
