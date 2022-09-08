@@ -51,7 +51,7 @@ vpnSpeed[52]=29000;vpnUser[52]=huabei
 vpnSpeed[54]=29000;vpnUser[54]=bj
 vpnSpeed[56]=4100;vpnUser[56]=xhl-shenzheng
 vpnSpeed[58]=29000;vpnUser[58]=beihang_tiyu
-vpnSpeed[60]=29000;vpnUser[60]=baotou
+vpnSpeed[60]=29000;vpnUser[60]=bt
 vpnSpeed[62]=9000;vpnUser[62]=macos
 
 
