@@ -24,40 +24,7 @@ NetDevice=tun0
 vpn_address_pre=10.8.0
 #####################################################################
 #定义用户
-vpnSpeed[6]=29000;vpnUser[6]=home
-vpnSpeed[8]=29000;vpnUser[8]=hunan
-vpnSpeed[10]=29000;vpnUser[10]=bj
-vpnSpeed[12]=29000;vpnUser[12]=huabei
-vpnSpeed[14]=29000;vpnUser[14]=hangzhou
-vpnSpeed[16]=29000;vpnUser[16]=shanxi
-vpnSpeed[18]=29000;vpnUser[18]=bh_tiyu
-vpnSpeed[20]=29000;vpnUser[20]=macos
-vpnSpeed[22]=29000;vpnUser[22]=86_tun0
-vpnSpeed[24]=29000;vpnUser[24]=85_tun0
-vpnSpeed[26]=29000;vpnUser[26]=85_tun0_hk
-vpnSpeed[28]=29000;vpnUser[28]=85_tun1
-vpnSpeed[30]=12480;vpnUser[30]=xhl505
-vpnSpeed[32]=12480;vpnUser[32]=xhl506
-vpnSpeed[34]=6144;vpnUser[34]=xhl_shandong
-vpnSpeed[36]=4096;vpnUser[36]=xhl_hangzhou
-vpnSpeed[38]=4096;vpnUser[38]=xhl_shenzheng
-vpnSpeed[40]=4096;vpnUser[40]=xhl_yiwu
-vpnSpeed[42]=10240;vpnUser[42]=sd_xinhai
-vpnSpeed[44]=10240;vpnUser[44]=sd_tky
-vpnSpeed[46]=3072;vpnUser[46]=bj_epc
-vpnSpeed[48]=3072;vpnUser[48]=tj_yuantai
-vpnSpeed[50]=3072;vpnUser[50]=sd_tiandi
-vpnSpeed[52]=3072;vpnUser[52]=hz_shibd1
-vpnSpeed[54]=3072;vpnUser[54]=hz_shibd2
-vpnSpeed[56]=3072;vpnUser[56]=hz_jianbo1
-vpnSpeed[58]=3072;vpnUser[58]=hz_jianbo2
-vpnSpeed[60]=4096;vpnUser[60]=xm_wlf
-vpnSpeed[62]=3072;vpnUser[62]=bj_ganjin
-vpnSpeed[64]=3072;vpnUser[64]=bj_ganjin2
-vpnSpeed[66]=3072;vpnUser[66]=sc_liao
-
-
-
+. /root/all_users.sh
 
 #计算出数组中最后一个index
 let vpn_total_number=${#vpnSpeed[@]}*2+4
